@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "klinik-tedavi-2.webp",
+        "img": "klinik-bekleme.webp",
         "video": "",
         "poster": "",
         "alt": "Pati Klinik",
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Küçük hayvan",
-          "en": "Small animal",
-          "ar": "حيوان صغير"
+          "tr": "Kedi ve köpek kliniği",
+          "en": "Cat & dog clinic",
+          "ar": "عيادة القطط والكلاب"
         },
         "title": {
-          "tr": "Evcil hayvanın, ailenin",
-          "en": "Your pet, in the family",
-          "ar": "حيوانك الأليف في العائلة"
+          "tr": "Patili dostun, ailenin",
+          "en": "Your furry friend, family",
+          "ar": "صديقك ذو الفرو فرد من العائلة"
         },
         "metin": {
-          "tr": "Pati Klinik, muayene ve aşı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Pati offers examination and vaccine. Images are representative and text is fictional.",
-          "ar": "يقدم بطي فحص ولقاح. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Pati Klinik; kedi ve köpekler için muayene, aşı ve tahlil hizmeti sunan kurgusal bir veteriner kliniği demosudur. Randevu için formu doldurun.",
+          "en": "Pati Klinik is a fictional vet clinic demo offering examinations, vaccines and tests for cats and dogs. Fill in the form to ask for an appointment.",
+          "ar": "باتي كلينيك عرض تجريبي افتراضي لعيادة بيطرية تقدم الفحص والتطعيم والتحاليل للقطط والكلاب. املأ النموذج لطلب موعد."
         },
         "cta1": {
-          "tr": "Hizmetler",
-          "en": "Services",
-          "ar": "خدمات"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Acil randevu",
-          "en": "Emergency",
-          "ar": "حالة طوارئ"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Kliniğimiz rakamlarla",
+          "en": "Our clinic in numbers",
+          "ar": "عيادتنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,43 +1624,13 @@
       },
       "data": [
         {
-          "deger": 10,
+          "deger": 4,
           "sonek": "",
-          "ikon": "monitoring",
+          "ikon": "medical_services",
           "etiket": {
-            "tr": "Uzman branşı",
-            "en": "Specialist branch",
-            "ar": "فرع متخصص"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 40,
-          "sonek": " dk",
-          "ikon": "schedule",
-          "etiket": {
-            "tr": "Tanı süresi",
-            "en": "Diagnosis time",
-            "ar": "زمن التشخيص"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 96,
-          "sonek": "%",
-          "ikon": "verified",
-          "etiket": {
-            "tr": "Numune doğruluğu",
-            "en": "Sample accuracy",
-            "ar": "دقة العينة"
+            "tr": "Veteriner hekim",
+            "en": "Veterinarians",
+            "ar": "أطباء بيطريون"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1641,41 @@
         {
           "deger": 7,
           "sonek": "",
-          "ikon": "groups",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Saha personeli",
-            "en": "Field staff",
-            "ar": "طاقم الميدان"
+            "tr": "Gün açık",
+            "en": "Days open",
+            "ar": "أيام العمل"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 2,
+          "sonek": "",
+          "ikon": "meeting_room",
+          "etiket": {
+            "tr": "Muayene odası",
+            "en": "Exam rooms",
+            "ar": "غرفة فحص"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 12,
+          "sonek": "",
+          "ikon": "vaccines",
+          "etiket": {
+            "tr": "Aylık aşı ve kontrol takvimi",
+            "en": "Months of vaccine and check-up schedule",
+            "ar": "أشهر جدول التطعيم والمتابعة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,33 +1706,46 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Sağlık",
-          "en": "The health",
-          "ar": "الصحة"
+          "tr": "Klinik hizmetleri",
+          "en": "Clinic services",
+          "ar": "خدمات العيادة"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
+          "tr": "Hangi konuda yardımcı oluyoruz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "بماذا نساعدك؟"
         },
         "description": {
-          "tr": "Randevudan sonuç takibine.",
-          "en": "From appointment to result tracking.",
-          "ar": "من الموعد إلى تتبع النتيجة."
+          "tr": "Muayeneden aşıya, tahlilden küçük cerrahiye.",
+          "en": "From check-ups to vaccines, tests and minor surgery.",
+          "ar": "من الفحص إلى التطعيم والتحاليل والجراحات الصغيرة."
         }
       },
       "data": [
         {
-          "icon": "monitoring",
+          "icon": "pets",
           "name": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Muayene",
+            "en": "Check-ups",
+            "ar": "الفحص"
           },
           "description": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
+            "tr": "Kedi ve köpek için genel muayene ve sağlık kontrolü.",
+            "en": "General examination and health check for cats and dogs.",
+            "ar": "فحص عام ومتابعة صحية للقطط والكلاب."
+          }
+        },
+        {
+          "icon": "vaccines",
+          "name": {
+            "tr": "Aşı ve parazit takibi",
+            "en": "Vaccines and parasite care",
+            "ar": "التطعيم ومتابعة الطفيليات"
+          },
+          "description": {
+            "tr": "Aşı takvimi, iç ve dış parazit uygulamaları.",
+            "en": "Vaccination schedule, internal and external parasite treatments.",
+            "ar": "جدول التطعيم وعلاج الطفيليات الداخلية والخارجية."
           }
         },
         {
@@ -1732,61 +1756,48 @@
             "ar": "المختبر"
           },
           "description": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
-          }
-        },
-        {
-          "icon": "local_hospital",
-          "name": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
-          },
-          "description": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
-          }
-        },
-        {
-          "icon": "medical_information",
-          "name": {
-            "tr": "Uzaktan takip",
-            "en": "Remote follow-up",
-            "ar": "متابعة عن بُعد"
-          },
-          "description": {
-            "tr": "Yeni randevu ve yönlendirme.",
-            "en": "New appointment and referral.",
-            "ar": "موعد جديد وإحالة."
+            "tr": "Kan ve idrar tahlili; sonuçlar hekimle birlikte yorumlanır.",
+            "en": "Blood and urine tests; results are reviewed with the vet.",
+            "ar": "تحاليل الدم والبول؛ وتُراجَع النتائج مع الطبيب البيطري."
           }
         },
         {
           "icon": "healing",
           "name": {
-            "tr": "Tedavi",
-            "en": "Treatment",
-            "ar": "العلاج"
+            "tr": "Küçük cerrahi ve tedavi",
+            "en": "Minor surgery and treatment",
+            "ar": "الجراحات الصغيرة والعلاج"
           },
           "description": {
-            "tr": "Kısa süreli tedavi planı.",
-            "en": "Short-term treatment plan.",
-            "ar": "خطة علاج قصيرة المدة."
+            "tr": "Planlı küçük işlemler ve tedavi; hekim değerlendirmesiyle.",
+            "en": "Planned minor procedures and treatment, after the vet's assessment.",
+            "ar": "إجراءات صغيرة مخططة وعلاج بعد تقييم الطبيب البيطري."
           }
         },
         {
-          "icon": "first_aid",
+          "icon": "emergency",
           "name": {
             "tr": "Acil yönlendirme",
-            "en": "Emergency referral",
-            "ar": "إحالة الطوارئ"
+            "en": "Emergency guidance",
+            "ar": "التوجيه في الحالات الطارئة"
           },
           "description": {
-            "tr": "112 ile koordinasyon (demo metin).",
-            "en": "Coordination with 112 (demo text).",
-            "ar": "تنسيق مع ١١٢ (نص تجريبي)."
+            "tr": "Acil durumda önce telefonla arayın; uygun yönlendirme yapılır.",
+            "en": "In an emergency, call first and we will direct you.",
+            "ar": "في الحالات الطارئة اتصل أولًا وسنوجّهك."
+          }
+        },
+        {
+          "icon": "badge",
+          "name": {
+            "tr": "Mikroçip ve pasaport",
+            "en": "Microchip and passport",
+            "ar": "الشريحة وجواز السفر"
+          },
+          "description": {
+            "tr": "Mikroçip uygulaması ve evcil hayvan belgeleri.",
+            "en": "Microchipping and pet documents.",
+            "ar": "زرع الشريحة ووثائق الحيوان الأليف."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Muayene süreci",
+          "en": "Visit process",
+          "ar": "مراحل الزيارة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda bakım",
+          "en": "Care in four steps",
+          "ar": "الرعاية في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Randevudan kontrole kadar.",
+          "en": "From the appointment to the follow-up.",
+          "ar": "من الموعد إلى المتابعة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,14 +1847,14 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Registration",
-            "ar": "التسجيل"
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "الموعد"
           },
           "text": {
-            "tr": "Kimlik ve şikayet notu.",
-            "en": "Identity and complaint note.",
-            "ar": "ملاحظة الهوية والشكوى."
+            "tr": "Telefonla ya da formla gün seçin.",
+            "en": "Pick a day by phone or form.",
+            "ar": "اختر يومًا عبر الهاتف أو النموذج."
           }
         },
         {
@@ -1851,38 +1862,38 @@
           "title": {
             "tr": "Muayene",
             "en": "Examination",
-            "ar": "الفرز والفحص"
+            "ar": "الفحص"
           },
           "text": {
-            "tr": "Fizik muayene ve triyaj.",
-            "en": "Physical examination and triage.",
-            "ar": "فحص بدني وتوجيه."
+            "tr": "Hekim, hayvanınızı ve öyküsünü değerlendirir.",
+            "en": "The vet assesses your pet and its history.",
+            "ar": "يقيّم الطبيب حيوانك وسجله."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Tetkik",
-            "en": "Test",
-            "ar": "الامتحان"
+            "tr": "Tedavi planı",
+            "en": "Treatment plan",
+            "ar": "خطة العلاج"
           },
           "text": {
-            "tr": "Kan veya görüntüleme isteği.",
-            "en": "Blood or imaging request.",
-            "ar": "طلب دم أو تصوير."
+            "tr": "Gerekirse tahlil yapılır; plan sizinle paylaşılır.",
+            "en": "Tests if needed; the plan is shared with you.",
+            "ar": "تُجرى تحاليل عند الحاجة وتُشارَك الخطة معك."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tespit",
-            "en": "Diagnosis",
-            "ar": "التشخيص"
+            "tr": "Kontrol",
+            "en": "Follow-up",
+            "ar": "المتابعة"
           },
           "text": {
-            "tr": "Sonuç görüşü ve plan.",
-            "en": "Result discussion and plan.",
-            "ar": "مناقشة النتيجة والخطة."
+            "tr": "Gerektiğinde kontrol muayenesi ve aşı hatırlatması.",
+            "en": "A follow-up visit and vaccine reminders when needed.",
+            "ar": "زيارة متابعة وتذكير بالتطعيم عند الحاجة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Klinik ekibi",
+          "en": "Clinic team",
+          "ar": "فريق العيادة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Patili dostunuzu karşılayanlar",
+          "en": "Who will greet your pet",
+          "ar": "من سيستقبل حيوانك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Dr. Elif K.",
           "role": {
-            "tr": "Klinisyen",
+            "tr": "Veteriner hekim",
             "en": "Veterinarian",
-            "ar": "طبيب"
+            "ar": "طبيبة بيطرية"
           },
           "bio": {
-            "tr": "9 yıl kliniği.",
-            "en": "9 years of clinic.",
-            "ar": "٩ سنوات في العيادة."
+            "tr": "Kedi ve köpek dahiliyesinde 12 yıl.",
+            "en": "12 years in cat and dog internal medicine.",
+            "ar": "12 عامًا في الطب الباطني للقطط والكلاب."
           },
           "img": ""
         },
         {
           "name": "Arif S.",
           "role": {
-            "tr": "Laborant",
-            "en": "Veterinary lab technician",
-            "ar": "فني المختبر"
+            "tr": "Laboratuvar teknisyeni",
+            "en": "Lab technician",
+            "ar": "فني مختبر"
           },
           "bio": {
-            "tr": "6 yıl numune.",
-            "en": "6 years of samples.",
-            "ar": "٦ سنوات في العينات."
+            "tr": "Tahlil ve numune işlemlerinde 7 yıl.",
+            "en": "7 years in testing and sample handling.",
+            "ar": "7 سنوات في التحاليل والعينات."
           },
           "img": ""
         },
         {
           "name": "Merve T.",
           "role": {
-            "tr": "Sekreter",
-            "en": "Medical secretary",
-            "ar": "سكرتير"
+            "tr": "Klinik asistanı",
+            "en": "Clinic assistant",
+            "ar": "مساعدة العيادة"
           },
           "bio": {
-            "tr": "4 yıl randevu.",
-            "en": "4 years of appointments.",
-            "ar": "٤ سنوات في المواعيد."
+            "tr": "Randevu ve hasta kaydında 4 yıl.",
+            "en": "4 years in appointments and patient records.",
+            "ar": "4 سنوات في المواعيد وسجلات المرضى."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Hayvan sahipleri",
+          "en": "Pet owners",
+          "ar": "أصحاب الحيوانات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Hayvan sahipleri ne diyor?",
+          "en": "What pet owners say",
+          "ar": "ماذا يقول أصحاب الحيوانات؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,46 +2030,46 @@
         {
           "name": "Selin B.",
           "role": {
-            "tr": "Hasta",
-            "en": "Pet owner",
-            "ar": "مرضى"
+            "tr": "Kedi sahibi",
+            "en": "Cat owner",
+            "ar": "صاحبة قطة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Randevu dakik; açıklama net.",
-            "en": "Appointment on time; clear explanation.",
-            "ar": "موعد في الوقت؛ الشرح واضح."
+            "tr": "Kedim için aşı günü sakin geçti; hekim her adımı anlattı.",
+            "en": "Vaccine day was calm for my cat; the vet explained every step.",
+            "ar": "مرّ يوم التطعيم بهدوء لقطتي، وشرح الطبيب كل خطوة."
           }
         },
         {
           "name": "Osman D.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Köpek sahibi",
+            "en": "Dog owner",
+            "ar": "صاحب كلب"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sonuç süresi bilgilendirildi.",
-            "en": "Result time was communicated.",
-            "ar": "تم إخطار وقت النتيجة."
+            "tr": "Randevu saatinde muayene edildi; bekleme kısa sürdü.",
+            "en": "He was seen at the appointment time; the wait was short.",
+            "ar": "فُحص كلبي في موعده وكان الانتظار قصيرًا."
           }
         },
         {
           "name": "Y. Karaca.",
           "role": {
-            "tr": "Hasta yakını",
-            "en": "Pet owner’s relative",
-            "ar": "مزور المريضة"
+            "tr": "Hayvan sahibi",
+            "en": "Pet owner",
+            "ar": "صاحب حيوان أليف"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Kayanım açık; süreç şeffaf.",
-            "en": "The waiting is clear; the process is transparent.",
-            "ar": "الانتظار واضح؛ العملية شفافة."
+            "tr": "Tahlil sonuçlarını sade bir dille açıkladılar.",
+            "en": "They explained the test results in plain language.",
+            "ar": "شرحوا نتائج التحاليل بلغة بسيطة."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "8px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Klinikte",
+          "en": "In the clinic",
+          "ar": "في العيادة"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Bekleme, muayene ve tedavi",
+          "en": "Waiting, examination and treatment",
+          "ar": "الانتظار والفحص والعلاج"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir (evcil hayvan fotoğrafı değildir); içerik kurgusal bir demodur.",
+          "en": "Images are representative (not pet photos); the content is a fictional demo.",
+          "ar": "الصور تمثيلية (وليست صور حيوانات)؛ والمحتوى عرض تجريبي افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,35 @@
       "data": [
         {
           "baslik": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Muayene",
+            "en": "Check-ups",
+            "ar": "الفحص"
           },
           "metin": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
+            "tr": "Kedi ve köpek için genel muayene ve sağlık kontrolü.",
+            "en": "General examination and health check for cats and dogs.",
+            "ar": "فحص عام ومتابعة صحية للقطط والكلاب."
           },
-          "img": "klinik-hekim-eli.webp",
+          "img": "klinik-klinik-oda.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Aşı ve parazit takibi",
+            "en": "Vaccines and parasite care",
+            "ar": "التطعيم ومتابعة الطفيليات"
+          },
+          "metin": {
+            "tr": "Aşı takvimi, iç ve dış parazit uygulamaları.",
+            "en": "Vaccination schedule, internal and external parasite treatments.",
+            "ar": "جدول التطعيم وعلاج الطفيليات الداخلية والخارجية."
+          },
+          "img": "klinik-alet-yakin.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2150,30 +2180,11 @@
             "ar": "المختبر"
           },
           "metin": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
+            "tr": "Kan ve idrar tahlili; sonuçlar hekimle birlikte yorumlanır.",
+            "en": "Blood and urine tests; results are reviewed with the vet.",
+            "ar": "تحاليل الدم والبول؛ وتُراجَع النتائج مع الطبيب البيطري."
           },
-          "img": "klinik-bekleme.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
-          },
-          "metin": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
-          },
-          "img": "klinik-klinik-oda.webp",
+          "img": "klinik-hero-resepsiyon.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "8px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "İş birliği yaptığımız noktalar",
+          "en": "Places we work with",
+          "ar": "جهات نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء منشآت افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Eczane"
+          "name": "Demo Mama Mağazası"
         },
         {
-          "name": "Demo Laboratuvar"
+          "name": "Demo Evcil Hayvan Oteli"
         },
         {
-          "name": "Demo Ekipman"
+          "name": "Demo Barınak Derneği"
         },
         {
-          "name": "Demo Dernek"
+          "name": "Demo Pet Kuaför"
         },
         {
-          "name": "Demo Hastane"
+          "name": "Demo Köpek Okulu"
         },
         {
-          "name": "Demo Dernek"
+          "name": "Demo Hayvan Dostları"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Randevusuz gelebilir miyim?",
+            "en": "Can I come without an appointment?",
+            "ar": "هل يمكنني القدوم دون موعد؟"
+          },
+          "answer": {
+            "tr": "Acil durumlarda önce telefonla arayın; rutin muayeneler randevuyla yapılır.",
+            "en": "In an emergency call first; routine visits are by appointment.",
+            "ar": "في الحالات الطارئة اتصل أولًا؛ والزيارات الروتينية بموعد."
+          },
           "soru": {
-            "tr": "Tahlil sonucu ne kadar?",
-            "en": "How long for the test result?",
-            "ar": "كم تستغرق النتيجة?"
+            "tr": "Randevusuz gelebilir miyim?",
+            "en": "Can I come without an appointment?",
+            "ar": "هل يمكنني القدوم دون موعد؟"
           },
           "cevap": {
-            "tr": "Test tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by test type; this demo text gives no example.",
-            "ar": "تتغير حسب نوع الفحص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Acil durumlarda önce telefonla arayın; rutin muayeneler randevuyla yapılır.",
+            "en": "In an emergency call first; routine visits are by appointment.",
+            "ar": "في الحالات الطارئة اتصل أولًا؛ والزيارات الروتينية بموعد."
           }
         },
         {
+          "question": {
+            "tr": "Hangi hayvanlara bakıyorsunuz?",
+            "en": "Which animals do you treat?",
+            "ar": "ما الحيوانات التي تعالجونها؟"
+          },
+          "answer": {
+            "tr": "Kedi ve köpek (küçük hayvan). Diğer türler için önce arayıp sorun.",
+            "en": "Cats and dogs (small animals). For other species please call first.",
+            "ar": "القطط والكلاب (حيوانات صغيرة). للأنواع الأخرى اتصل أولًا."
+          },
           "soru": {
-            "tr": "Acil durum için neredeyim?",
-            "en": "Where should I go in an emergency?",
-            "ar": "أين أذهب في الطوارئ?"
+            "tr": "Hangi hayvanlara bakıyorsunuz?",
+            "en": "Which animals do you treat?",
+            "ar": "ما الحيوانات التي تعالجونها؟"
           },
           "cevap": {
-            "tr": "Önce 112; kurum yönlendirmesi demo metindir.",
-            "en": "First 112; the institution’s referral is a demo text.",
-            "ar": "١١٢ أولاً؛ إحالة المؤسسة نص تجريبي."
+            "tr": "Kedi ve köpek (küçük hayvan). Diğer türler için önce arayıp sorun.",
+            "en": "Cats and dogs (small animals). For other species please call first.",
+            "ar": "القطط والكلاب (حيوانات صغيرة). للأنواع الأخرى اتصل أولًا."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Muayene ve işlemin türüne göre belirlenir; kesin bilgiyi hekim hayvanınızı gördükten sonra verir. Bu demoda fiyat listesi yoktur.",
+            "en": "They depend on the examination and procedure; the vet gives exact figures after seeing your pet. This demo has no price list.",
+            "ar": "تعتمد على نوع الفحص والإجراء؛ ويعطي الطبيب الأرقام الدقيقة بعد رؤية حيوانك. لا توجد قائمة أسعار في هذا العرض."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Muayene ve işlemin türüne göre belirlenir; kesin bilgiyi hekim hayvanınızı gördükten sonra verir. Bu demoda fiyat listesi yoktur.",
+            "en": "They depend on the examination and procedure; the vet gives exact figures after seeing your pet. This demo has no price list.",
+            "ar": "تعتمد على نوع الفحص والإجراء؛ ويعطي الطبيب الأرقام الدقيقة بعد رؤية حيوانك. لا توجد قائمة أسعار في هذا العرض."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request an appointment",
+          "ar": "اطلب موعدًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Hayvanınızın türünü ve şikâyetinizi kısaca yazın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Briefly describe your pet and the concern; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب باختصار نوع حيوانك وشكواك؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Pati Klinik",
@@ -2421,9 +2472,9 @@
           "ar": "Pati Klinik"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
           "tr": "Dost Sokak No: 9, Şahinbey, Gaziantep (kurgusal adres)",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Appointment form",
+          "ar": "نموذج الموعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Muayene randevusu",
+              "en": "Check-up appointment",
+              "ar": "موعد فحص"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Aşı ve kontrol",
+              "en": "Vaccine and follow-up",
+              "ar": "تطعيم ومتابعة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Tahlil",
+              "en": "Lab test",
+              "ar": "تحاليل"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Pati Klinik"
         },
         "description": {
-          "tr": "Pati Klinik, muayene ve aşı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Pati offers examination and vaccine. Images are representative and text is fictional.",
-          "ar": "يقدم بطي فحص ولقاح. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Pati Klinik; kedi ve köpekler için muayene, aşı, laboratuvar ve küçük cerrahi hizmetleri sunan kurgusal bir veteriner kliniğidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Pati Klinik is a fictional vet clinic offering examinations, vaccines, lab tests and minor surgery for cats and dogs. Images are representative and text is fictional.",
+          "ar": "باتي كلينيك عيادة بيطرية افتراضية تقدم الفحص والتطعيم والتحاليل والجراحات الصغيرة للقطط والكلاب. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Tek kat",
-          "en": "One floor",
-          "ar": "طابق واحد"
+          "tr": "Bekleme salonu",
+          "en": "Waiting room",
+          "ar": "صالة الانتظار"
         },
         "spot2": {
-          "tr": "Kayıttan çıkanma aynı binada.",
-          "en": "From registration through departure in the same building.",
-          "ar": "من التسجيل إلى الخروج في نفس المبنى."
+          "tr": "Sakin, aydınlık ve temiz bekleme alanı.",
+          "en": "A calm, bright and clean waiting area.",
+          "ar": "منطقة انتظار هادئة ومضيئة ونظيفة."
         },
-        "icon2": "verified",
+        "icon2": "chair",
         "name3": {
-          "tr": "Kayıt defteri",
-          "en": "Record book",
-          "ar": "دفتر السجلات"
+          "tr": "Muayene odası",
+          "en": "Exam room",
+          "ar": "غرفة الفحص"
         },
         "spot3": {
-          "tr": "Her süreç kayıt altında; hasta onayıyla.",
-          "en": "Every process is under record; with patient consent.",
-          "ar": "كل العملية تحت السجل؛ بموافقة المريض."
+          "tr": "Hekim ve hayvan sahibi için ayrı, sakin muayene odası.",
+          "en": "A separate, calm exam room for the vet and the owner.",
+          "ar": "غرفة فحص هادئة ومنفصلة للطبيب وصاحب الحيوان."
         },
-        "icon3": "schedule",
-        "img": "klinik-tedavi-3.webp",
+        "icon3": "medical_services",
+        "img": "klinik-harita-bina.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 09:00 – 20:00",
+          "en": "Every day 09:00 – 20:00",
+          "ar": "كل يوم 09:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "8px",
         "title": {
-          "tr": "Patiyi bekletme",
-          "en": "Do not wait, come now",
-          "ar": "لا تنتظر، تعال الآن"
+          "tr": "Randevunuzu ayarlayalım",
+          "en": "Let us set up your appointment",
+          "ar": "لنحدد موعدك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Formu doldurun; iki iş günü içinde dönüş yaparız. Acil durumda lütfen önce telefonla arayın. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form and we reply within two business days. In an emergency please call first. No data is stored on this demo site.",
+          "ar": "املأ النموذج ونردّ خلال يومي عمل. في الحالات الطارئة يُرجى الاتصال أولًا. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {

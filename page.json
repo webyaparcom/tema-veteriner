@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Randevudan sonuç takibine.",
-        "en": "From appointment to result tracking.",
-        "ar": "من الموعد إلى تتبع النتيجة."
+        "tr": "Muayeneden aşıya, tahlilden küçük cerrahiye.",
+        "en": "From check-ups to vaccines, tests and minor surgery.",
+        "ar": "من الفحص إلى التطعيم والتحاليل والجراحات الصغيرة."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Muayene ve aşı; görseller temsilîdir.",
-        "en": "Examination and vaccine; images are representative.",
-        "ar": "فحص ولقاح؛ الصور تمثيلية."
+        "tr": "Kedi ve köpek kliniği; görseller temsilîdir.",
+        "en": "A cat and dog clinic; images are representative.",
+        "ar": "عيادة للقطط والكلاب؛ الصور تمثيلية."
       }
     },
     {

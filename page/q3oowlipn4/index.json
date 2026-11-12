@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Randevudan sonuç takibine.",
-    "en": "From appointment to result tracking.",
-    "ar": "من الموعد إلى تتبع النتيجة."
+    "tr": "Muayeneden aşıya, tahlilden küçük cerrahiye.",
+    "en": "From check-ups to vaccines, tests and minor surgery.",
+    "ar": "من الفحص إلى التطعيم والتحاليل والجراحات الصغيرة."
   },
   "keyword": {
-    "tr": "Sağlık",
-    "en": "The health",
-    "ar": "الصحة"
+    "tr": "Klinik hizmetleri",
+    "en": "Clinic services",
+    "ar": "خدمات العيادة"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:43.280Z",
-  "update": "2026-11-05T23:44:49.711Z"
+  "update": "2026-11-12T07:37:00.157Z"
 }
