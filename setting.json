@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Muayene ve aşı; görseller temsilîdir.",
-    "en": "Examination and vaccine; images are representative.",
-    "ar": "فحص ولقاح؛ الصور تمثيلية."
+    "tr": "Kedi ve köpek için muayene, aşı ve tahlil. Görseller temsilîdir.",
+    "en": "Examination, vaccination and tests for cats and dogs. Images are representative.",
+    "ar": "فحص وتطعيم وتحاليل للقطط والكلاب. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "kedi, köpek, veteriner",
-    "en": "cat, dog, vet",
-    "ar": "قطة، كلب، بيطري"
+    "tr": "veteriner, kedi, köpek, aşı, muayene",
+    "en": "vet, cat, dog, vaccine, examination",
+    "ar": "بيطري، قطة، كلب، تطعيم، فحص"
   },
   "category": "Kurumsal",
   "name": "Pati Klinik",

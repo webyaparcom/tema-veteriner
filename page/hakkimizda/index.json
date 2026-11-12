@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Muayene ve aşı; görseller temsilîdir.",
-    "en": "Examination and vaccine; images are representative.",
-    "ar": "فحص ولقاح؛ الصور تمثيلية."
+    "tr": "Kedi ve köpek kliniği; görseller temsilîdir.",
+    "en": "A cat and dog clinic; images are representative.",
+    "ar": "عيادة للقطط والكلاب؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:49.714Z",
+  "update": "2026-11-12T07:37:00.161Z",
   "date": "2026-10-30"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Pati Klinik",
   "short_name": "Pati Klinik",
-  "description": "Muayene ve aşı; görseller temsilîdir.",
+  "description": "Kedi ve köpek için muayene, aşı ve tahlil. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
