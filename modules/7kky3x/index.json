@@ -1,72 +1,53 @@
 {
-  "name": "Ekip 1",
+  "name": "Ekip Petek — altıgen portrelerle bal peteği",
+  "description": "Vurgu zeminde altıgen kesilmiş portreler, çift sıradakiler yarım kayarak petek dokusu kurar; altta ad ve unvan. Geometrik altıgen form + petek ritmi; teknoloji, mühendislik ve kolektif çalışmayı çağrıştırır. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "hexagon",
+  "category": "team",
+  "subCategory": "honeycomb",
+  "tags": [
+    "team",
+    "hexagon",
+    "honeycomb",
+    "geometric",
+    "rtl",
+    "fabrika"
+  ],
   "desing": {
     "max": "1200px",
-    "bgcolor": "#ffffff",
-    "cardbg": "#f8fafc",
-    "bordercolor": "#e2e8f0",
-    "titlecolor": "#1e293b",
-    "textcolor": "#475569",
-    "accent": "#DE6D26",
-    "badge": {
-      "tr": "Ekibimiz",
-      "en": "Our Team"
-    },
-    "title": {
-      "tr": "Uzman Kadromuzla Tanışın",
-      "en": "Meet Our Experts"
-    },
-    "description": {
-      "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
-      "en": "Our experienced team is here to add value to your projects."
-    },
-    "accentText": "#ffffff"
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-primary, #2563eb)",
+    "text": "var(--mx-site-primary-contrast, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+    "accent": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentText": "var(--mx-site-primary, #2563eb)",
+    "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguText": "var(--mx-site-primary, #2563eb)",
+    "bgcolor": "var(--mx-site-primary, #2563eb)",
+    "color": "var(--mx-site-primary-contrast, #ffffff)"
   },
-  "data": [
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Kurucu / CEO",
-        "en": "Founder / CEO"
-      },
-      "bio": {
-        "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
-        "en": "Strategy and management with 10+ years of industry experience."
-      },
-      "img": ""
-    },
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Tasarım Direktörü",
-        "en": "Design Director"
-      },
-      "bio": {
-        "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
-        "en": "Brand identity and user experience design."
-      },
-      "img": ""
-    },
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Yazılım Geliştirici",
-        "en": "Software Developer"
-      },
-      "bio": {
-        "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
-        "en": "Scalable solutions with modern web technologies."
-      },
-      "img": ""
-    }
-  ],
-  "category": "team",
-  "description": "Ekip üyeleri modülü. Fotoğraf, isim, unvan ve kısa biyografiyi responsive kart grid'inde gösterir. Fotoğraf yoksa ikon fallback, çok dilli unvan/biyografi ve animasyonlu giriş içerir.",
-  "version": "1.0.0",
-  "icon": "groups",
+  "data": [],
   "veri": {
     "statik": true,
     "dinamik": false,
-    "kaynak": "desing/data"
+    "kaynak": "data",
+    "alanlar": {
+      "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+      "unvan": "görev / unvan (dil sözlüğü)",
+      "metin": "kısa tanıtım (dil sözlüğü)",
+      "img": "portre görseli (yoksa baş harfler)",
+      "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+      "eposta": "e-posta (mailto)",
+      "telefon": "telefon (tel:)",
+      "url": "profil sayfası bağlantısı",
+      "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+    }
   }
 }
