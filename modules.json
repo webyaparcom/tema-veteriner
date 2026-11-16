@@ -1469,7 +1469,7 @@
         "ar"
       ],
       "desing": {
-        "max": "1200px",
+        "max": "1360px",
         "accent": "var(--mx-site-primary-contrast, #ffffff)",
         "accentText": "var(--mx-site-primary, #2563eb)",
         "cta_url": "teklif-al",
@@ -1504,7 +1504,8 @@
         "vurguText": "var(--mx-site-primary, #2563eb)",
         "logoH": "44px",
         "bgcolor": "var(--mx-site-primary, #2563eb)",
-        "color": "var(--mx-site-primary-contrast, #ffffff)"
+        "color": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoimg": "logo-ust.png"
       },
       "data": [],
       "veri": {
